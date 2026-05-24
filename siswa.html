@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Berita Siswa Berprestasi</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f4f4;
+      color:#333;
+    }
+
+    header{
+      background:linear-gradient(135deg,#003366,#0055aa);
+      color:white;
+      padding:30px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    nav{
+      background:#002244;
+      padding:15px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:gold;
+    }
+
+    .hero{
+      height:350px;
+      background:url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f') center/cover;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      color:white;
+      padding:20px;
+    }
+
+    .hero h2{
+      background:rgba(0,0,0,0.6);
+      padding:20px;
+      border-radius:10px;
+      font-size:35px;
+    }
+
+    .container{
+      width:90%;
+      max-width:1100px;
+      margin:40px auto;
+    }
+
+    .news-card{
+      background:white;
+      border-radius:15px;
+      overflow:hidden;
+      box-shadow:0 5px 15px rgba(0,0,0,0.1);
+      margin-bottom:30px;
+      transition:0.3s;
+    }
+
+    .news-card:hover{
+      transform:translateY(-5px);
+    }
+
+    .news-card img{
+      width:100%;
+      height:300px;
+      object-fit:cover;
+    }
+
+    .news-content{
+      padding:25px;
+    }
+
+    .news-content h3{
+      color:#003366;
+      margin-bottom:15px;
+      font-size:28px;
+    }
+
+    .news-content p{
+      line-height:1.8;
+      margin-bottom:15px;
+    }
+
+    .highlight{
+      color:#0055aa;
+      font-weight:bold;
+    }
+
+    footer{
+      background:#002244;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 25px;
+      background:#0055aa;
+      color:white;
+      text-decoration:none;
+      border-radius:8px;
+      margin-top:10px;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#003366;
+    }
+
+    @media(max-width:768px){
+      header h1{
+        font-size:28px;
+      }
+
+      .hero h2{
+        font-size:24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Portal Berita Pelajar</h1>
+    <p>Inspirasi dari Generasi Muda Indonesia</p>
+  </header>
+
+  <nav>
+    <a href="#">Beranda</a>
+    <a href="#">Berita</a>
+    <a href="#">Prestasi</a>
+    <a href="#">Kontak</a>
+  </nav>
+
+  <section class="hero">
+    <h2>
+      Siswa SMA 2 Kendari Raih Perhatian Karena Kepintarannya
+    </h2>
+  </section>
+
+  <div class="container">
+
+    <div class="news-card">
+      <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7" alt="Siswa Pintar">
+
+      <div class="news-content">
+        <h3>MUHAMMAD NOVAL PATI, Siswa Berprestasi dari SMA 2 Kendari</h3>
+
+        <p>
+          <span class="highlight">MUHAMMAD NOVAL PATI</span> merupakan salah satu siswa 
+          berbakat dari SMA 2 Kendari yang dikenal karena kecerdasannya di bidang akademik 
+          dan teknologi. Ia sering mendapatkan nilai tinggi serta aktif dalam berbagai kegiatan sekolah.
+        </p>
+
+        <p>
+          Guru-guru di sekolah menyebut Noval sebagai siswa yang disiplin, rajin belajar, 
+          dan memiliki rasa ingin tahu yang tinggi. Selain itu, ia juga dikenal ramah 
+          kepada teman-temannya dan suka membantu saat proses belajar berlangsung.
+        </p>
+
+        <p>
+          Tidak hanya unggul di pelajaran, Noval juga memiliki minat besar pada dunia 
+          teknologi dan pemrograman website. Dengan semangat belajar yang tinggi, ia 
+          menjadi inspirasi bagi banyak siswa lainnya di SMA 2 Kendari.
+        </p>
+
+        <a href="#" class="btn">Baca Selengkapnya</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Portal Berita Pelajar | Dibuat dengan HTML & CSS</p>
+  </footer>
+
+</body>
+</html>
